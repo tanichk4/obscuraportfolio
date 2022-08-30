@@ -24,7 +24,7 @@ const portfolio = $(".portfolio_list").bxSlider({
     hideControlOnEnd: false,
 });
 
-(".button--portfolio-prev").click((e) => {
+$(".button--portfolio-prev").click((e) => {
     e.preventDefault();
     portfolio.goToPrevSlide();
 });
